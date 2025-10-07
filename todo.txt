@@ -1,0 +1,11 @@
+The lackluster support for long double is disappointing. Consider the following workarounds:
+- Add optional support for __float128
+- Warn users if $N$ is too large and `long double` is not large enough
+- Use C++23's stdfloat library...... I wish <stdfloat> existed forever ago
+
+
+
+Misc:
+- Check if n and p are actually numbers by making a function that checks every character in a string
+- add an option to change the number of chars outputted. Maybe make pmf_string and cdf_string variables
+that get changed if the user uses -b to possibly eliminate 2 if statements.
