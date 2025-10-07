@@ -5,7 +5,7 @@
 Some may ask, "why not use the normal approximation?"
 
 This program is more accurate, at least until the working floating-point type no longer has enough precision. After that point, switching to the normal approximation is better.
-It is typical these days for `size(long double) == 64` (e.g. apple arm), which limits N to about 1000...
+It is typical these days for `size(long double) == 64` (e.g. apple arm), which limits the maximum supported population to about 1000...
 
 
 
