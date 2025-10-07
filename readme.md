@@ -1,7 +1,5 @@
 # Binomial Distribution Calculator
 
-> For very large sample sample sizes (around 10000 or more as long as your architecture properly implements long double)
-
 Some may ask, "why not use the normal approximation?"
 
 This program is more accurate, at least until the working floating-point type no longer has enough precision. After that point, switching to the normal approximation is better.
