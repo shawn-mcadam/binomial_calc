@@ -4,7 +4,8 @@
 
 Some may ask, "why not use the normal approximation?"
 
-Yes that would be far more accurate when `double` does not have enough precision.
+This program is more accurate, at least until the working floating-point type no longer has enough precision. After that point, switching to the normal approximation is better.
+It is typical these days for `size(long double) == 64` (e.g. apple arm), which limits N to about 1000...
 
 
 
