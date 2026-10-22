@@ -1,7 +1,6 @@
 The lackluster support for long double is disappointing. Consider the following workarounds:
-- Add optional support for _Float128 for whenever the population size is too large
+- Add optional support for C23's _Float128 for whenever the population size is too large
 - Warn users if $N$ is too large and `long double` is not large enough
-- Use C++23's stdfloat library...... I wish <stdfloat> existed forever ago
 
 
 
